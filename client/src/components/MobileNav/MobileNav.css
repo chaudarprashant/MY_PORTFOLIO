@@ -1,0 +1,26 @@
+.mobile-nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.mobile-nav-header {
+    height: 50px;
+    width: 100px;
+    background-color: #1e1e1e;
+    padding: 8px;
+}
+.mobile-nav-header .mobile-nav-icon {
+    color: white;
+    cursor: pointer;
+}
+
+.mobile-nav-title{
+    margin-left: 20px;
+    color: #f29f67;
+    font-weight: bold;
+    text-transform: capitalize;
+    vertical-align: middle;
+    font-size: 20px;
+}
