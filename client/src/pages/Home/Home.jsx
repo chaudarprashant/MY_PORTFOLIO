@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTheme } from '../../context/ThemeContext';
 import './Home.css'
-import Resume from '../../assets/docs/resume.txt'
+import Resume from '../../assets/docs/ResumeF.pdf'
 import Typewriter from 'typewriter-effect';
 import { FaMoon } from "react-icons/fa6";
 import { FaSun } from "react-icons/fa";
@@ -30,7 +30,7 @@ const Home = () => {
  </h1>
  <div className='home-buttons'>
   <button className='btn btn-hire'>Hire me</button>
-  <a className = 'btn btn-cv' href={Resume} download="your_name.pdf">My Resume</a>
+  <a className = 'btn btn-cv' href={Resume} download="ResumeF.pdf">My Resume</a>
 
  </div>
 
